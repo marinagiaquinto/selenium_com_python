@@ -41,7 +41,7 @@ print('1.4 VALUES -> pega todos os valores')
 print(dicionario.values()) #dict_values(['teste novo valor chave1', 'valor2', {'outraChave1': 'outroValorDeChave1', 'outroValorDeChave': ['valor1', 'valor2', 100]}])
 
 print('')
-print('1.5 POPITEM -> Tira um item qualquer do dicionário')
+print('1.5 POPITEM -> Tira um item qualquer do dicionário ou elimina por nome')
 
 dicionario.popitem()
 
