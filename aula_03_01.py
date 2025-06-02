@@ -2,18 +2,18 @@ from selenium.webdriver import Firefox # o código chama a biblioteca selenium e
 from selenium.webdriver.common.by import By 
 
 
-#abrir navegador
-navegador = Firefox()
+#abrir browser
+browser = Firefox()
 url = 'https://curso-python-selenium.netlify.app/aula_03.html'
 
-navegador.get(url)
-navegador.implicitly_wait(3)
+browser.get(url)
+browser.implicitly_wait(3)
 
-a = navegador.find_element(By.TAG_NAME, 'a')
-navegador.find_elements
+a = browser.find_element(By.TAG_NAME, 'a')
+browser.find_elements
 
 for click in range(11):
-    p = navegador.find_elements(By.TAG_NAME, 'p') 
+    p = browser.find_elements(By.TAG_NAME, 'p') 
         #find_element pega apenas o valor único. find_elements faz uma lista com os valores daquele elemento -> print(type(p)) mostra que é uma lista e print(len(p)) mostra a quantidade de itens na lista
         #find.element é um método genérico para encontrar um elemento único
         # By é uma classe importada do Selenium a partir da qual se define como quer localizar o elemento
@@ -27,5 +27,5 @@ for click in range(11):
     print('')
 
 
-#fechar navegador
-navegador.quit()
+#fechar browser
+browser.quit()
