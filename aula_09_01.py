@@ -77,6 +77,8 @@ assert browser.find_element(By.ID, 'finished').text == 'Carregamento concluído'
 browser.quit()
 """
 
+
+
 """
 4. REUTILIZANDO A FUNÇÃO de espera COM PARTIAL
 
@@ -100,6 +102,7 @@ wdw.until(esperar_barra_carregamento_2, 'Barra de carregamento não foi finaliza
 assert browser.find_element(By.ID, 'finished').text == 'Carregamento concluído' , 'Mensagem de conclusão do carregamento não foi apresentada'
 
 """
+
 
 # 5. Reutilizando a função de espera usando classe (Orientação prog. a objeto)
 
