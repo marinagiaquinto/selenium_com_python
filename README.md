@@ -1,5 +1,8 @@
 # Selenium com python
 
+Curso oferecido pelo youtube pelo Eduardo Mendes. 
+https://www.youtube.com/watch?v=PHHXksljGNA&list=PLOQgLBuj2-3LqnMYKZZgzeC7CKCPF375B 
+
 ## I. Instalação do Python no Ubuntu:
 
 pyenv -> https://github.com/pyenv/pyenv?tab=readme-ov-file#installation 
